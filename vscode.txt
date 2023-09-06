@@ -1,0 +1,67 @@
+安装python包
+cd D:\Programs\Python\Python37-32\Scripts
+.\pip install jieba
+
+查看安装哪些python包
+.\pip list
+
+
+
+
+1. `.`匹配任何单个字符，不包括换行符。
+2. `*`匹配前面的元素零次或多次，例如，a* 将匹配 'a'、'aa'、'aaa' 等。
+3. `+`匹配前面的元素一次或多次，例如，a+ 将匹配 'a'、'aa'、'aaa' 等。
+4. `?`匹配前面的元素零次或一次，例如，a? 将匹配 '' 和 'a'。
+5. `{n}`匹配前面的元素 n 次。
+6. `{n,}`匹配前面的元素 n 次或多次。
+7. `{n,m}`匹配前面的元素 n 次到 m 次。
+8. `[abc]`匹配 []内的任何一个字符，例如，[abc] 将匹配 'a'、'b' 和 'c'。
+9. `[^abc]`匹配除了[]内的任何一个字符，例如，[^abc] 将匹配除了 'a'、'b' 和 'c'之外的任何字符。
+10. `\d`代表任何一位数字，等价于[0-9]。
+11. `\w`代表任何单个字符，等价于[a-zA-Z0-9_]。
+12. `\s`匹配任何空白字符，包括空格、制表符、换页符等。
+13. `^`在[]外时表示字符序列的开始，例如，^abc 将匹配 'abc'、'abcd'、'abcabc' 等的开始部分。
+14. `$`匹配字符序列的结束，例如，abc$ 将匹配 'abc'、'xxabc'、'abcabc' 等的结束部分。
+15. ``匹配单词的边界，例如，abc 将匹配 ' abc '，但不匹配 'abcabc'。
+16. `\B`匹配非单词边界，例如，\Babc\B 将匹配 'abcabc'，但不匹配 ' abc '。
+17. `()`创建一个捕获组，可以对其进行引用。
+
+例如，如果你想在多行中查找与“error”和“warning”匹配的行，可以使用类似于`(error|warning).*`的正则表达式。
+
+*注：在 VSCode 中使用正则表达式查找时，需要确保“使用正则表达式”按钮是选中状态（这是一个 `.*` 形式的按钮）。
+
+
+
+VSCode 中的列模式（也称为块选择或矩形选择）允许你在多行同时选择和编辑。这在需要在多行输入相同的文字或符号时非常实用。
+
+要启用列模式，可以按以下步骤操作：
+
+- Windows: Shift + Alt + 鼠标左键拖动
+- Mac: Option + Command + 鼠标左键拖动
+- Linux: Shift + Alt + 鼠标左键拖动
+
+你还可以使用光标箭头键进行列选择：
+
+- Windows: Ctrl + Shift + Alt + Arrow Keys
+- Mac: Option + Command + Arrow Keys
+- Linux：Ctrl + Shift + Alt + Arrow Keys
+
+在列模式中，你可以在多行上同时输入内容。当你开始类型时，会在每一行的选择区域上插入你所输入的字符。
+
+
+
+在 Visual Studio Code 中，你可以使用快捷键 Ctrl + Shift + L 来选择查找匹配的所有内容。
+
+
+打开终端
+按 Ctrl + `（键盘左上方的键）
+
+
+https://github.com/Jameschurchill/testing.git
+
+
+Jameschurchill
+
+git config --global user.name "Jameschurchill"
+git config --global user.email "yuanzb88@126.com"
+

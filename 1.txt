@@ -1,0 +1,1 @@
+在 Visual Studio Code 中，你可以使用快捷键 Ctrl + Shift + L 来选择查找匹配的所有内容。
